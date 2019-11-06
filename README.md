@@ -1,1 +1,1 @@
-# cygni-talent-tdd-in-practise
+# Cygni Talent - TDD in practise
