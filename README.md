@@ -1,5 +1,5 @@
 # ci-tdd-java-template
-A little template used for explaining CI and TDD
+A little template used for explaining CI, TDD and Code Coverage.
 
 # Introduction
 This project is suppose to be used as a helper project when demonstrating and 
@@ -15,13 +15,13 @@ The status checks required are the following:
 
 
 # Assignment
-The goal with this assignment is to create PR from the `develop` branch of a forked repository,
-to the master branch of the main repository where all the status checks are approved.
+The goal with this assignment is to create PR from the `java-tdd` branch of a forked repository,
+to the `java-tdd-master` branch of the main repository where all the status checks are approved.
 
 In order to do that, the following tasks are required.
 
 * Fork the repository
-* Checkout the `develop` branch
+* Checkout the `java-tdd` branch
 * Do the coding task
 
 ## Coding
