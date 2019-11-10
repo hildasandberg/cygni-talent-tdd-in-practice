@@ -1,0 +1,31 @@
+{
+  "root": true,
+  "extends": [
+    "react-app",
+    "plugin:react/recommended",
+    "plugin:jest/recommended",
+    "plugin:jest/style",
+    "plugin:testing-library/recommended",
+    "plugin:testing-library/react",
+    "plugin:prettier/recommended",
+    "prettier/react",
+    "prettier/@typescript-eslint"
+  ],
+  "overrides": [
+    {
+      "files": ["**/*.{test,spec}.*", "**/__tests__/*"],
+      "env": {
+        "jest": true
+      }
+    },
+    {
+      "files": ["**/*.{ts,tsx}"],
+      "parserOptions": {
+        "project": "./tsconfig.json"
+      },
+      "rules": {
+        "@typescript-eslint/strict-boolean-expressions": "warn"
+      }
+    }
+  ]
+}
