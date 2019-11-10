@@ -13,10 +13,9 @@ The status checks required are the following:
 2. 100% code coverage, reported from CodeCov
 
 
-
 # Assignment
 The goal with this assignment is to create PR from the `java-tdd` branch of a forked repository,
-to the `java-tdd-master` branch of the main repository where all the status checks are approved.
+to the `java-tdd` branch of the main repository where all the status checks should get approved.
 
 In order to do that, the following tasks are required.
 
