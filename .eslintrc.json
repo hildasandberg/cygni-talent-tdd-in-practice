@@ -27,5 +27,8 @@
         "@typescript-eslint/strict-boolean-expressions": "warn"
       }
     }
-  ]
+  ],
+  "rules": {
+    "jest/expect-expect": "off"
+  }
 }

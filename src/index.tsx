@@ -1,5 +1,6 @@
 import 'react-app-polyfill/stable';
 import 'react-app-polyfill/ie11';
+import 'abort-controller/polyfill';
 
 import React from 'react';
 import ReactDOM from 'react-dom';

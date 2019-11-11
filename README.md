@@ -1,4 +1,13 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# react-bdd
+
+Welcome! Your assignment is to implement a simple Flickr image gallery using a TDD/BDD approach.
+
+This project already contains a test suite using [React Testing Library](https://testing-library.com/docs/react-testing-library/intro), as well as some boilerplate code to quickly get API requests up and running.
+
+## Requirements
+
+- Node.js (>= 12)
+- Visual Studio Code (preferred)
 
 ## Available Scripts
 
@@ -16,19 +25,3 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
