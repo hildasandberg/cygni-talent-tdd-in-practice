@@ -59,7 +59,7 @@ it('shows a search box and calls the service when entering some text', async () 
   expect(searchInput).toHaveValue(initialSearchText);
 
   await wait(() => {
-    expect(searchPhotosSpy).toHaveBeenLastCalledWith(initialSearchText);
+    expect(searchPhotosSpy).toHaveBeenLastCalledWith(initialSearchText, expect.anything());
   });
 
   fireEvent.change(searchInput, {
@@ -67,7 +67,7 @@ it('shows a search box and calls the service when entering some text', async () 
   });
 
   await wait(() => {
-    expect(searchPhotosSpy).toHaveBeenLastCalledWith(newSearchText);
+    expect(searchPhotosSpy).toHaveBeenLastCalledWith(newSearchText, expect.anything());
   });
 });
 
@@ -89,6 +89,6 @@ it('fetches and displays images', async () => {
   const { url, width, height } = mockPhoto.sizes[0];
 
   expect(imageElement).toHaveAttribute('src', url);
-  expect(imageElement).toHaveAttribute('width', width);
-  expect(imageElement).toHaveAttribute('height', height);
+  expect(imageElement).toHaveAttribute('width', width.toString());
+  expect(imageElement).toHaveAttribute('height', height.toString());
 });
